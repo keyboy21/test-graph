@@ -48,6 +48,7 @@ export const MapViewer = () => {
       const bkExpand = new Expand({ view, content: mapRef.current });
 
       const markerGraphic = new Graphics({
+        // @ts-ignore: Unreachable code error
         geometry: point,
         symbol: simpleMarkerSymbol,
         popupTemplate,
