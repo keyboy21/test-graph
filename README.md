@@ -1,33 +1,29 @@
-# Finance app
+# Test Project
 
-## 1. Technologies used
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwindcss](https://img.shields.io/badge/Tailwindcss-0ea5e9?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Radixui](https://img.shields.io/badge/Radix-030712?style=for-the-badge&logo=radixui&logoColor=white)
-![Tremor](https://img.shields.io/badge/Tremor-030712?style=for-the-badge&logo=Tremor.so&logoColor=white)
+A brief description of your project.
 
-### Setting up Dev
+## Table of Contents
 
-Clone the project to your local development machine, where you are already logged in your GitHub profile and open a terminal in your work folder:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-```shell
-git clone https://github.com/yusuf-saydullayev/finance-app
-cd finance-app
-npm install
-```
+## Usage
 
-Then, you have to wait until all npm packages are successfully downloaded.
+Provide examples and instructions on how to use your project. Include code snippets and screenshots if necessary.
 
-### Running the Dev
+## Contributing
 
-```bash
-npm run dev
-```
+If you would like to contribute to this project, please follow these guidelines.
 
-After building, you'll be able to visit the dev version of the project on the following URL: <http://localhost:3000>.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Submit a pull request.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT License](LICENSE).
+
