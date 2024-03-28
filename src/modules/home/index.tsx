@@ -12,6 +12,7 @@ export const HomeModule: FC = () => {
 	// every key is a date and the value is a number of the data
 	const calculateAverage = (asceding: DataStructure[], descading: DataStructure[]): LineChartData[] => {
 		const result: LineChartData[] = [];
+
 		const averageOfAsceding: DataStructure = asceding.reduce((acc, item) => {
 			Object.keys(item).forEach((key) => {
 				acc[key] = acc[key] + item[key] / asceding.length;

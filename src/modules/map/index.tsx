@@ -1,5 +1,6 @@
 import { Heading } from '~/components/typography/Heading';
 import { MapViewer } from './MapViewer';
+import { Container } from '~/components/ui/Container';
 
 export const MapModule = () => {
 	return (
@@ -8,7 +9,9 @@ export const MapModule = () => {
 				<Heading className="text-center" level={1} as="h1">
 					Страница карты
 				</Heading>
-				<MapViewer/>
+				<Container>
+					<MapViewer />
+				</Container>
 			</div>
 		</section>
 	);
